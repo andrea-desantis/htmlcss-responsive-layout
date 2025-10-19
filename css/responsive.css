@@ -59,4 +59,43 @@
         font-size: 3rem;
     }
 
+    .recipe-card{
+        display: flex;
+        
+    }
+
+    .recipe-video{
+        flex-basis: 65%;
+    } 
+    .recipe-info{
+        flex-basis: 35%;
+        
+    }
+    
+    
+
+    li.blender ,
+    li.clock ,
+    li.pie ,
+    li.cost ,
+    li.pin {
+        flex-basis: 100%;
+    }
+
+    .social-networks .label {
+        display: block;
+    }
+
+    .btn {
+	    padding: 10px calc(100% / 20);
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer> address{
+        text-align: left;
+    }
 }
