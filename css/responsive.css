@@ -13,6 +13,7 @@
     .recipe-name {
 	    color: #4e3969;
 	    font-weight: 900; /* ??? */
+        font-size: 2rem;
     }
 
     .recipe-origin {
@@ -35,9 +36,27 @@
     li.pin {
         flex-basis: 30%;
     }
+
+    .btn {
+	    padding: 10px calc(100% / 10 - 15px);
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .presentation img{
+        display: inline-block;
+    }
+
     
 }
 
 @media screen and (min-width: 992px) {
     
+    .recipe-name {
+	   
+        font-size: 3rem;
+    }
+
 }
